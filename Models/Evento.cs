@@ -1,6 +1,6 @@
 using System;
 
-namespace AspCore04{
+namespace AspCore04.Models{
     public class Evento{
         public int EventoId { get; set; }
 

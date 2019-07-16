@@ -6,3 +6,13 @@ ALGUNS PASSO A PASSOS QUE ESTÁ SENDO REALIZADO
     - Realizador
     - Patrocinador
     - PatrocinadorValor
+
+2. Adicionado Classe DbContext
+    - DbSet Eventos 
+    - DbSet Realizadores
+    - DbSet Patrocinadores
+    - DbSet PatrocinadorValores
+
+3. Adicionado Referência ao Pomelo.EntityFrameworkCore.Mysql
+4. Adicionado a classe serviço do EF Core - Context na Startup
+

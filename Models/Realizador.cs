@@ -1,4 +1,4 @@
-namespace AspCore04{
+namespace AspCore04.Models{
     public class Realizador{
         public int RealizadorId { get; set; }
 
