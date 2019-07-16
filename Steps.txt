@@ -1,0 +1,8 @@
+
+ALGUNS PASSO A PASSOS QUE ESTÁ SENDO REALIZADO
+
+1. Adicionados Entidades
+    - Evento 
+    - Realizador
+    - Patrocinador
+    - PatrocinadorValor

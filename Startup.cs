@@ -31,7 +31,7 @@ namespace AspCore04
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
+            
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
@@ -54,11 +54,12 @@ namespace AspCore04
             app.UseCookiePolicy();
 
             app.UseMvc(routes =>
-            {
-                routes.MapRoute(
+                {
+                    routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
-            });
+                }         
+            );
         }
     }
 }
