@@ -5,5 +5,8 @@ namespace AspCore04.Models{
         public string  Nome { get; set; }
 
         public string Telefone { get; set; }
+
+        public PatrocinadorEvento PatrocinadorEventoVirtual {get; set;}
+
     }
 }

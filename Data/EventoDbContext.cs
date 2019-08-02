@@ -14,6 +14,6 @@ namespace AspCore04.Data{
         public DbSet<Evento> Eventos {get; set;}
         public DbSet<Realizador> Realizadores {get; set;}
         public DbSet<Patrocinador> Patrocinadores {get; set;}
-        public DbSet<PatrocinadorValor> PatrocinadorValores {get; set;}
+        public DbSet<PatrocinadorEvento> PatrocinadorEventos {get; set;}
     }
 }

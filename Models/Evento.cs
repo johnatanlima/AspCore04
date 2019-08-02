@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace AspCore04.Models{
     public class Evento{
@@ -12,8 +13,12 @@ namespace AspCore04.Models{
 
         public int Banner { get; set; }
 
-        public bool ativo { get; set; }
+        public bool Ativo { get; set; }
 
-        public string Disponibilidade { get; set; }
+        public string Gratuito_Pago { get; set; }
+
+        public Realizador RealizadorVirtual {get; set;}
+
+        public PatrocinadorEvento PatrocinadorEventoVirtual {get; set;} 
     }
 }
