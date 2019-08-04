@@ -17,8 +17,10 @@ namespace AspCore04.Models{
 
         public string Gratuito_Pago { get; set; }
 
+        public int RealizadorId {get; set;}
         public Realizador RealizadorVirtual {get; set;}
 
+        public int PatrocinadorEventoId {get; set;}
         public PatrocinadorEvento PatrocinadorEventoVirtual {get; set;} 
     }
 }
