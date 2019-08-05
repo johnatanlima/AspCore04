@@ -15,6 +15,9 @@ namespace AspCore04.Models.Maps
 
             builder.Property(p => p.Telefone).HasColumnType("varchar(14)");
 
+            builder.Property(p => p.Email).HasColumnType("varchar(20)").IsRequired();
+
+            //Falta props de naveg
 
         }
     }
