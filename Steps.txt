@@ -30,4 +30,8 @@
    
     *** À FAZER *** 
 
+    I. Modelar a arquitetura da aplicação conforme Design Pattern Repository
+    II. Iniciar padronização de View Models
+    III. Iniciar processo de Desenvolvimento Front-End
+
 
