@@ -17,7 +17,8 @@ namespace AspCore04.Models.Maps
 
             builder.Property(p => p.Email).HasColumnType("varchar(20)").IsRequired();
 
-            //Falta props de naveg
+            //Props de Navegação e Relacionamentos
+            //Geradas automaticamente pelo EF Core
 
         }
     }

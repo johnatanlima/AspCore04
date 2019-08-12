@@ -15,7 +15,8 @@ namespace AspCore04.Models.Maps
 
             builder.Property(p => p.Telefone).HasColumnType("varchar(14)");
 
-            //falta props de nav
+            //Props de Navegação e Relacionamentos 
+            //Geradas Automaticamente pelo EF Core
         }
     }
 }

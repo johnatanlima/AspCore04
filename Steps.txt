@@ -1,21 +1,33 @@
++--------------------------------------------------+
++                                                  +
++ ALGUNS PASSO A PASSOS QUE ESTÃO SENDO REALIZADOS +
++                                                  +
++--------------------------------------------------+
+    
+    *** CONCLUÍDOS ***
 
-ALGUNS PASSO A PASSOS QUE ESTÁ SENDO REALIZADO
+    1. Enditidades Adicionadas 
+        - Evento             -> Ok | Mapeamento -> Ok 
+        - Realizador         -> Ok | Mapeamento -> Ok 
+        - Patrocinador       -> Ok | Mapeamento -> Ok
+        - PatrocinadorEvento -> Ok | Mapeamento -> OK
 
-1. Adicionados Entidades
-    - Evento 
-    - Realizador
-    - Patrocinador
-    - PatrocinadoEventos
+    2. Adicionado Classe DbContext
+        - DbSet Eventos Ok 
+        - DbSet Realizadores Ok 
+        - DbSet Patrocinadores Ok 
+        - DbSet PatrocinadorEventos Ok 
 
-2. Adicionado Classe DbContext
-    - DbSet Eventos 
-    - DbSet Realizadores
-    - DbSet Patrocinadores
-    - DbSet PatrocinadorEventos
+    3. Métodos de Override declarados na classe contexto
+        - Configuração e aplicação das alterações de Mapeamento por Override/Orientação a Objetos -> OK 
 
-3. Adicionado Referência ao Pomelo.EntityFrameworkCore.Mysql
-4. Adicionado a classe serviço do EF Core - Context na Startup - Configurado classe.
-5. Relacionamento entre entidades de domínio descritos. 
-
+    4. Adição de Referências de projeto
+        - Adicionado Referência ao Pomelo.EntityFrameworkCore.Mysql -> Ok
+        - Adicionado a classe serviço do EF Core - Context na Startup - Configurado classe. -> Ok
+        - Adicionad package de referência para uso da ferramenta de Scaffolding -> Ok
+            - (dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design)
+        
+   
+    *** À FAZER *** 
 
 
