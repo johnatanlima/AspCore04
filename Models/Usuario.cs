@@ -1,4 +1,4 @@
-
+/* 
 namespace AspCore04.Models
 {
     public class Usuario{
@@ -14,4 +14,4 @@ namespace AspCore04.Models
         
         
     }
-}
+} */
