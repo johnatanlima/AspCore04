@@ -27,7 +27,15 @@
         - Adicionad package de referência para uso da ferramenta de Scaffolding -> Ok
             - (dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design)
         
-   
+    5. Classe STARTUP modificada
+        - Service de DbContext Ok
+        - Configuração e adição de padrão pt-BR OK
+        
+    6. Controllers 
+        - Controllers e Vies -> Realizador OK
+
+    7. Migrations/Script banco de dados criados
+
     *** À FAZER *** 
 
     I. Modelar a arquitetura da aplicação conforme Design Pattern Repository
