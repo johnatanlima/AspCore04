@@ -14,16 +14,14 @@ namespace AspCore04.Models{
         public string Titulo { get; set; }
 
         public string Descricao { get; set; }
-
-        public DateTime DataInicio { get; set; }
-
-        //Modificacao de Data de Evento
-        public DateTime DataTermino { get; set; }
         
         public string BannerUrl { get; set; }
 
         public string Gratuito_Pago { get; set; }
 
+        public DateTime DataInicio {get; set;}
+
+        public DateTime DataFinal { get; set; }
         //Relacionamento EVENTO-REALIZADOR
         public int RealizadorId {get; set;}
         public Realizador RealizadorVirtual {get; set;}

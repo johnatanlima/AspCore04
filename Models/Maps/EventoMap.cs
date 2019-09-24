@@ -19,10 +19,9 @@ namespace AspCore04.Models.Maps
 
             builder.Property(p => p.BannerUrl).HasColumnType("varchar(1024)").HasDefaultValue("~/Imagens/Default.png");
             
-            builder.Property(p => p.DataInicio).HasColumnType("datetime");
+            builder.Property(p => p.DataInicio).HasColumnType("datetime").HasDefaultValue().IsRequired(false);
 
-            //Modificacao de Modelo
-            builder.Property(p => p.DataTermino).HasColumnType("datetime");
+            builder.Property(p => p.DataFinal).HasColumnType("datetime").HasDefaultValue().IsRequired(false);
 
             //Props de Navegação e Relacionamentos
             //Geradas automaticamente pelo EF Core

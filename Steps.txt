@@ -49,6 +49,17 @@
     I.ii - 
 
 
+    //Utilizacao de data
+        <input asp-for="Date" asp-format="{0:dd/MM/yyyy HH:mm}" readonly class="form-control" />
+
+        <input value="@Model.Date.ToString("dd/MM/yyyy HH:mm")" readonly class="form-control" />
+
+        <div class="form-group">
+            <label asp-for="Date" class="col-md-2 control-label"></label>
+            <div class="col-md-10 form-control-static">
+                @Model.Date.ToString("dd/MM/yyyy HH:mm")
+            </div>
+        </div>
 
 
 
