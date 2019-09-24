@@ -15,7 +15,10 @@ namespace AspCore04.Models{
 
         public string Descricao { get; set; }
 
-        public DateTime Data { get; set; }
+        public DateTime DataInicio { get; set; }
+
+        //Modificacao de Data de Evento
+        public DateTime DataTermino { get; set; }
         
         public string BannerUrl { get; set; }
 
