@@ -17,6 +17,8 @@ namespace AspCore04.Models.Maps
 
             builder.Property(p => p.Email).HasColumnType("varchar(30)").IsRequired();
 
+            builder.Property(p => p.Senha).HasColumnType("varchar(45)").IsRequired();
+
             //Props de Navegação e Relacionamentos
             //Geradas automaticamente pelo EF Core
 
