@@ -36,10 +36,20 @@
 
     7. Migrations/Script banco de dados criados
 
+    *** FAZENDO *** 
+
+    I. Modelar a arquitetura da aplicação conforme Design Pattern Repository - Posterior
+    II. Iniciar padronização de View Models <<<<<<<<<<<<<<<<----------------------  
+    III. Iniciar processo de Desenvolvimento Front-End <-------------------------
+    IV - Alteração de Model para gerar novo script de database: Andamento.... 
+ 
     *** À FAZER *** 
 
-    I. Modelar a arquitetura da aplicação conforme Design Pattern Repository
-    II. Iniciar padronização de View Models
-    III. Iniciar processo de Desenvolvimento Front-End
+    I.i - Refatorando Models
+    I.ii - 
+
+
+
+
 
 
