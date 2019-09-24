@@ -17,11 +17,11 @@ namespace AspCore04.Models.Maps
 
             builder.Property(p => p.Gratuito_Pago).HasColumnType("varchar(10)").IsRequired();
 
-            builder.Property(p => p.BannerUrl).HasColumnType("varchar(1024)").HasDefaultValue("~/Imagens/Default.png");
+            builder.Property(p => p.BannerUrl).HasColumnType("varchar(64)").HasDefaultValue("~/Imagens/Default.png");
             
-            builder.Property(p => p.DataInicio).HasColumnType("datetime").HasDefaultValue().IsRequired(false);
+            builder.Property(p => p.DataInicio).HasColumnType("DateTime").IsRequired().ValueGeneratedNever();
 
-            builder.Property(p => p.DataFinal).HasColumnType("datetime").HasDefaultValue().IsRequired(false);
+            builder.Property(p => p.DataFinal).HasColumnType("DateTime").IsRequired().ValueGeneratedNever();
 
             //Props de Navegação e Relacionamentos
             //Geradas automaticamente pelo EF Core

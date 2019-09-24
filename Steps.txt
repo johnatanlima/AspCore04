@@ -11,12 +11,14 @@
         - Realizador         -> Ok | Mapeamento -> Ok 
         - Patrocinador       -> Ok | Mapeamento -> Ok
         - PatrocinadorEvento -> Ok | Mapeamento -> OK
+        - Usuário            -> Ok | Mapeamento -> Ok
 
     2. Adicionado Classe DbContext
         - DbSet Eventos Ok 
         - DbSet Realizadores Ok 
         - DbSet Patrocinadores Ok 
         - DbSet PatrocinadorEventos Ok 
+        - DbSet Usuário Ok 
 
     3. Métodos de Override declarados na classe contexto
         - Configuração e aplicação das alterações de Mapeamento por Override/Orientação a Objetos -> OK 
@@ -42,6 +44,7 @@
     II. Iniciar padronização de View Models <<<<<<<<<<<<<<<<----------------------  
     III. Iniciar processo de Desenvolvimento Front-End <-------------------------
     IV - Alteração de Model para gerar novo script de database: Andamento.... 
+
  
     *** À FAZER *** 
 

@@ -22,6 +22,7 @@ namespace AspCore04.Models{
         public DateTime DataInicio {get; set;}
 
         public DateTime DataFinal { get; set; }
+        
         //Relacionamento EVENTO-REALIZADOR
         public int RealizadorId {get; set;}
         public Realizador RealizadorVirtual {get; set;}
