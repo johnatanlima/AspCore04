@@ -19,8 +19,7 @@ namespace AspCore04.Models{
 
         public string Gratuito_Pago { get; set; }
 
-        public DateTime DataInicio {get; set;}
-
+        public DateTime DataInicio {get; set;} //[DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
         public DateTime DataFinal { get; set; }
 
         //Relacionamento EVENTO-REALIZADOR
