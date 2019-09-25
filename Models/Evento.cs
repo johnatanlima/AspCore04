@@ -21,7 +21,7 @@ namespace AspCore04.Models{
 
         public DateTime DataInicio {get; set;} //[DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
         public DateTime DataFinal { get; set; }
-
+        
         //Relacionamento EVENTO-REALIZADOR
         public int RealizadorId {get; set;}
         public Realizador RealizadorVirtual {get; set;}
