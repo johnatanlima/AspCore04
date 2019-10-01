@@ -64,6 +64,6 @@
             </div>
         </div>
 
-
+    dotnet-aspnet-codegenerator controller -name EventoController -m Evento -dc EventoDbContext -scripts -udl -outDir Controllers 
 
 
