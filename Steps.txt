@@ -34,10 +34,14 @@
         - Configuração e adição de padrão pt-BR OK
         
     6. Controllers 
-        - Controllers e Vies -> Realizador OK
+        - Controllers e Views -> Realizador OK
+        - Controllers e Views -> Evento Ok 
+        - Controllers e Views -> PatrocinadorEvento Ok 
+    
 
     7. Migrations/Script banco de dados criados
-
+        - Migration 001 Ok 
+        - Migration 002 Teste ---------------------------   FAZENDO -----------------------+
     *** FAZENDO *** 
 
     I. Modelar a arquitetura da aplicação conforme Design Pattern Repository - Posterior
@@ -67,3 +71,7 @@
     dotnet-aspnet-codegenerator controller -name EventoController -m Evento -dc EventoDbContext -scripts -udl -outDir Controllers 
 
 
+    BUILDING DE APLICAÇÃO -------------------------- FAZENDO -------------------------------+
+
+
+    
