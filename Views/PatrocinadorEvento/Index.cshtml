@@ -1,0 +1,47 @@
+@model IEnumerable<AspCore04.Models.PatrocinadorEvento>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ValorPatrocinado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EventoVirtual)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PatrocinadorVirtual)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValorPatrocinado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventoVirtual.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PatrocinadorVirtual.Nome)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.PatrocinadorValorId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.PatrocinadorValorId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.PatrocinadorValorId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
