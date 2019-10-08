@@ -42,15 +42,15 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Titulo)
             </td>
-            <td>
+            <td>/
                 @Html.DisplayFor(modelItem => item.Descricao)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.BannerUrl)
+                <img src="@Url.Content(item.BannerUrl)" class="img-thumbnail" />
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Gratuito_Pago)
-            </td>
+            </td>   
             <td>
                 @Html.DisplayFor(modelItem => item.DataInicio)
             </td>
