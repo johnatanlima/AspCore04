@@ -11,9 +11,9 @@ namespace AspCore04.Models.Maps
 
             builder.HasKey(k => k.PatrocinadorId).HasName("pk_PatrocinadorId");
 
-            builder.Property(p => p.Nome).HasColumnType("varchar(45)").IsRequired();
+            builder.Property(p => p.Nome).HasColumnType("varchar(45)").IsRequired().HasMaxLength(45);
 
-            builder.Property(p => p.Telefone).HasColumnType("varchar(14)");
+            builder.Property(p => p.Telefone).HasColumnType("varchar(14)").HasMaxLength(14);
 
             //Props de Navegação e Relacionamentos 
             //Geradas Automaticamente pelo EF Core
