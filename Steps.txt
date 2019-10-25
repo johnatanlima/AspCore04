@@ -47,6 +47,7 @@
         - Migration 002 Teste Ok 
         - Migration 008 - Precisa atualizar ---------------------------   FAZENDO -----------------------+
 
+        -- Proxima migrations -> 009 fazendo.... 
     *** FAZENDO *** 
 
     I. Modelar a arquitetura da aplicação conforme Design Pattern Repository - Posterior
