@@ -37,11 +37,16 @@
         - Controllers e Views -> Realizador OK
         - Controllers e Views -> Evento Ok 
         - Controllers e Views -> PatrocinadorEvento Ok 
-    
+
+        ----------------
+
+        - Alteração de Controlllers e Views -> FAZENDO
 
     7. Migrations/Script banco de dados criados
         - Migration 001 Ok 
-        - Migration 002 Teste ---------------------------   FAZENDO -----------------------+
+        - Migration 002 Teste Ok 
+        - Migration 008 - Precisa atualizar ---------------------------   FAZENDO -----------------------+
+
     *** FAZENDO *** 
 
     I. Modelar a arquitetura da aplicação conforme Design Pattern Repository - Posterior
