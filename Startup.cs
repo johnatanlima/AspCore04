@@ -70,7 +70,7 @@ namespace AspCore04
                 {
                     routes.MapRoute(
                     name: "default",
-                    template: "{controller=Evento}/{action=Index}/{id?}");
+                    template: "{controller=Eventos}/{action=Index}/{id?}");
                 }         
             );
         }
